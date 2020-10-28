@@ -1,0 +1,119 @@
+body {
+  font-family: 'Open Sans', serif;
+  color: #5b5e61;
+}
+
+.menu-main{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 223, 219, 0.3);
+}
+.page-header{
+  padding-top: 17px;
+  background-color: rgba(255, 223, 219, 0.7);
+  background-image: url('../img/arabesque.png');
+ 
+}
+.menu-main a{
+  flex: 5;
+  font-family: arial;
+  display: flex;
+  color: #211f1f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;    
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  
+  .menu-main{
+      height: auto;
+      border-bottom: 0px;
+      display: block;
+  }
+  .menu-main a{
+      height: 30px;    
+  }
+  .navbar-translate{
+    height: 0px;
+    
+  }
+  
+}
+
+.img-fluid{
+  width: 160px;
+  position:relative;      
+  border-radius:10%;
+  -webkit-border-radius:20%;
+  box-shadow: 10px 0px 50px 10px rgba(235, 214, 212, .6);
+  -webkit-box-shadow: 0px 0px 50px 40px rgba(235, 214, 212, .6);
+}
+
+@media (min-width: 992px) { 
+  body {
+    padding-top: 0;
+   }
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40; }
+
+h1 {
+  font-size: 3rem;
+  line-height: 15.5rem; }
+
+h2 {
+  font-size: 3.5rem; 
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; 
+}
+  section.resume-section .resume-item .resume-date {
+    min-width: none; 
+  }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } 
+    }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #8fb8e9 !important; }
+
+.text-primary{
+  color:  #021024 !important; 
+}
+
+a {
+  color: rgb(235, 196, 191); 
+}
+  a:hover, a:focus, a:active {
+    color: #070f1c;
+   }
+
+a.footer {
+  color: rgb(24, 23, 23); 
+}
+  a.footer:hover, a:focus, a:active {
+    color: #545151;
+   }
